@@ -11,7 +11,7 @@ Library HW creates an in memory library with the following functions:
 
 ## Getting Started
 
-There are a few dependencies for testing, which were installed using npm. To learn more about the NPM package manager, please see their docs [NPM Doc](https://www.npmjs.com/)  Before running locally, cd into the repo and run the following command
+There are a few dependencies for testing, which were installed using npm. To learn more about the NPM package manager, please see their docs [NPM Doc](https://www.npmjs.com/)  Before running locally, make sure you have npm installed, then cd into the repository and run the following command
 
 ```
 npm install
