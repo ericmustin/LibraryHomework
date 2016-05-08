@@ -1,0 +1,17 @@
+{
+  "name": "libraryHW",
+  "version": "1.0.0",
+  "description": "Library HW",
+  "main": "library.js",
+  "author": {
+    "Eric Mustin": "mustin.eric@gmail.com"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec ./tests/tests.js"
+    },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "should": "^8.3.1"
+  }
+}
