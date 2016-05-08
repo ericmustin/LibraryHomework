@@ -2,6 +2,8 @@
 
 //Assertion library
 const should = require('should');
+
+//import files
 const library = require('../library.js');
 const commandInstructions = require('../databaseModel.js');
 const memory = require('../database.js');

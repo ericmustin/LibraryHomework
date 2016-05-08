@@ -31,7 +31,7 @@ var parser = function(string) {
         }
     } else if (groupThree.indexOf(commands[0]) >= 0) {
         //checks that commands which take 2 argument are not being passed more than 2 arguments and have no extra text
-        if ((commands.length - 1) % 2 !== 0 || commands.length !== 5 || commands[2] !== ' ' || commands[4] !== '' || commands[1 === '' || commands[3] === '']) {
+        if ((commands.length - 1) % 2 !== 0 || commands.length !== 5 || commands[2] !== ' ' || commands[4] !== '' || commands[1] === '' || commands[3] === '') {
             return errorMessage;
         }
     } else {
@@ -40,6 +40,7 @@ var parser = function(string) {
     }
 };
 
+//make available for testing and other files
 module.exports = {
     parser: parser,
     errorMessage: errorMessage

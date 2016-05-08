@@ -7,7 +7,9 @@
     "Eric Mustin": "mustin.eric@gmail.com"
   },
   "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec ./tests/tests.js"
+    "test": "./node_modules/.bin/mocha --reporter spec ./tests/tests.js",
+    "start": "node ./library.js",
+    "library": "node ./library.js"
     },
   "dependencies": {},
   "devDependencies": {

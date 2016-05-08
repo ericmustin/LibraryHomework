@@ -2,13 +2,15 @@
 
 //Assertion library
 const should = require('should');
+
+//import files
 const library = require('../library.js');
 const commandInstructions = require('../databaseModel.js');
 const memory = require('../database.js');
 const libraryLogic = require('../controller.js');
 const errorHandler = require('../errorHandler.js')
 
-//getter/setter tests
+// getter/setter tests
 describe('the getters and setters', function() {
 
     describe('the adding method', function() {
