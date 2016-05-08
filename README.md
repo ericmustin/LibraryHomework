@@ -16,12 +16,9 @@ There are a few dependencies for testing, which were installed using npm. To lea
 ```
 npm install
 ```
-The main file is library.js.  To run the program, use the following commands
+The main file is library.js.  To run the program, use the following command
 ```
 npm start
-```
-```
-npm library
 ```
 
 ##Testing

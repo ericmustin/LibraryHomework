@@ -8,8 +8,7 @@
   },
   "scripts": {
     "test": "./node_modules/.bin/mocha --reporter spec ./tests/tests.js",
-    "start": "node ./library.js",
-    "library": "node ./library.js"
+    "start": "node ./library.js"
     },
   "dependencies": {},
   "devDependencies": {
